@@ -1,0 +1,114 @@
+body {
+  background-image: url("images/other.jpeg");
+  background-attachment: scroll;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 18px;
+  line-height: 25px;
+  /*background-attachment: scroll;*/
+}
+
+#profile-image {
+  background-image: url('images/kayracz.jpeg');
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px;
+  color: grey;
+}
+
+#profile {
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+}
+
+h1{
+  color: darkblue;
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 10px;
+
+}
+
+h2, h3{
+  color: black;
+  font-family: sans-serif;
+  font-size: 22px;
+  line-height: 10px;
+}
+
+h4 {
+  color: darkred;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+p {
+
+}
+
+li, a {
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+  border-spacing: center
+}
+
+.list-inline li {
+ display:inline-block;
+ text-align: center;
+ padding: 0px 15px;
+ font-size: 20px;
+}
+
+a:hover {
+  color:gold;
+}
+
+
+img {
+  width:300px;
+  text-align: center;
+}
+
+
+.card {
+  width: 60%;
+  text-align: center;
+  padding: 40px 0px;
+  margin: 40px auto;
+  background-color: #EBEBEB;
+  opacity: 0.8;
+  border-radius:6px;
+  /*border-right: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
+  /*margin: 200px;*/
+}
+
+
+<!-- Screen stuff -->
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
