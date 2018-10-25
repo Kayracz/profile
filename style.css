@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/other.jpeg");
+  background-image: url("sketching.mp4");
   background-attachment: scroll;
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -9,15 +9,29 @@ body {
   /*background-attachment: scroll;*/
 }
 
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
 #profile-image {
   background-image: url('images/kayracz.jpeg');
   background-size: cover;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 20px;
-  box-shadow: 2px 6px;
+  box-shadow: 1px 5px;
   color: grey;
 }
 
@@ -28,29 +42,32 @@ body {
 }
 
 h1{
-  color: darkblue;
+  color: #0b409c;
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 10px;
+  text-shadow: 2px 4px 40px white;
 
 }
 
 h2, h3{
-  color: black;
+  color: #10316b;
   font-family: sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 10px;
+  text-shadow: 2px 4px 25px white;
 }
 
 h4 {
-  color: darkred;
+  color: #0c907d;
   font-family: sans-serif;
   font-size: 18px;
   line-height: 10px;
+  text-shadow: 1px 1px 20px lightgrey;
 }
 
 p {
-
+ font-size: 15px;
 }
 
 li, a {
@@ -58,17 +75,23 @@ li, a {
   text-decoration: none;
   text-align: center;
   border-spacing: center
+
 }
 
 .list-inline li {
  display:inline-block;
  text-align: center;
  padding: 0px 15px;
- font-size: 20px;
+ font-size: 25px;
+ text-shadow: 1px 1px 15px grey;
+}
+
+h4:hover{
+ color:darkgreen;
 }
 
 a:hover {
-  color:gold;
+  color:purple;
 }
 
 
